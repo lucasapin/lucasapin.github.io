@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+ 
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Full Stack Junior Web Developer</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#projects">Projects</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- home section start -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row mt-5 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="img/profilepic.png" class="rounded-circle w-75" alt="profile img">            
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
+            <h2 class="fs-4">Lucas Pinheiro</h2>
+            <p class="mt-4 text-muted">A former Administrative Director and Retail Store manager pivoting into the tech world. I have recently graduated from Lighthouse Labs Web Development Bootcamp and I am looking forward to bringing excitment and hard work to a new company.</p>
+            <a href="#projects" class="btn btn-danger px-3 mt-3">My projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section end -->
+
+  <!-- about section starts -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div  class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">A very enthusiastic and hard working individual. There is nothing that cannot be accomplished. Constantly pushing boundaries</h3>
+            <p class="text-muted">Those are some of the qualifications that I will be bringing to the job.</p>
+          </div>
+          <!-- <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact item">
+                <h4 class="fs-1 fw-bold">4</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>   
+            <div class="col-sm-4">
+              <div class="fact item">
+                <h4 class="fs-1 fw-bold">4</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div> 
+            <div class="col-sm-4">
+              <div class="fact item">
+                <h4 class="fs-1 fw-bold">4</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>         
+          </div> -->
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="https://resume.creddle.io/resume/bveftydvt0y" class="btn px-3 btn-danger me-5">Download CV</a>
+              <div class="social links">
+                <a href="https://www.instagram.com/lucaspinheiru/" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-pin/" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+
+              </div>
+            </div>
+          </div>                    
+        </div>
+        <div  class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html <i class="fab fa-html5"></i></h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Javascript <i class="fab fa-js-square"></i></h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div> 
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">React <i class="fab fa-react"></i></h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div> 
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Bootstrap <i class="fab fa-bootstrap"></i></h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>  
+          <div class="skill-item">
+            <h3 class="fs-6">PostgreSQL <i class="fas fa-database"></i></h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>            
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- Projects Section start-->
+  <section class="portfolio py-5" id="projects">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Latest Projects</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">reckon</h3>
+            <p class="mb-4"><a href="https://github.com/lucasapin/Reckon" class="text-danger text-decoration-none">GitHub</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">summer restaurant</h3>
+            <p class="mb-4"><a href="https://github.com/lucasapin/summer-restaurant" class="text-danger text-decoration-none">GitHub</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">tiny app</h3>
+            <p class="mb-4"><a href="https://github.com/lucasapin/tinyapp" class="text-danger text-decoration-none">GitHub</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item">
+            <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+            <h3 class="text-capitalize fs-5 my-2">scheduler</h3>
+            <p class="mb-4"><a href="https://github.com/lucasapin/scheduler" class="text-danger text-decoration-none">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!-- Projects Section end-->
+
+  <!-- contact session starts -->
+  <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Contact Me</h2>
+                </div>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-danger">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Email</h3>
+                        <p class="text-muted">lucapinheiru@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mb-3">
+                  <div class="icon fs-4 text-danger">
+                      <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="text ms-3">
+                      <h3 class="fs-5">Phone</h3>
+                      <p class="text-muted">+1(416)458-****</p>
+                  </div>
+              </div>
+              <div class="contact-item d-flex">
+                <div class="icon fs-4 text-danger">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">City</h3>
+                    <p class="text-muted">Toronto/ON</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-7">
+                <div class="contact-form">
+                  <form action="https://formsubmit.co/a2cfbf016cdca3cda8875a1892a1a3e3" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Portfolio page email!">
+                    <div class="row">
+                      <div class="col-lg-6 mb-4">
+                        <input type="text" name="name" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <input type="email" name="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                      </div>                    
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 mb-4">
+                        <textarea type="text" name="message" rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <button type="submit" class="btn btn-danger px-3">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- contact session end -->
+
+  <!-- footer starts -->
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-muted">&copy; 2021 Lucas Pinheiro</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
